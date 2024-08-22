@@ -213,7 +213,7 @@
 
         <script>
             // these variables will be filled when generating the file - the template format is 'variable_name'
-            const staticryptInitiator = 
+            const staticryptInitiator =
             ((function(){
   const exports = {};
   const cryptoEngine = ((function(){
@@ -879,7 +879,8 @@ exports.init = init;
                 const { isSuccessful } = await staticrypt.handleDecryptionOfPage(password, isRememberChecked);
 
                 if (!isSuccessful) {
-                    alert(templateError);
+                    // alert(templateError);
+                    // document.getElementById('staticrypt-password').placeholder = "try again!";
                 }
             });
         </script>
