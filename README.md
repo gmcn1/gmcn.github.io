@@ -20,6 +20,7 @@ feel free to make your own branch I'll check em out when I have time to merge th
 - The index.html file in the root directory is a VERY simple tab cloaker I made that makes it look like youre on Canvas whenever you switch tabs, also keeps search history records to a minimum
     - it uses an iFrame that points to encrypted.html, change that if needed
     - any feature hosted on external websites or services is accessed using the same iframe code but with the link swapped
+    - added a feature that whites out the site whenever the tab isnt in focus, might make it run slightly worse but hey security I guess
 
 
 
